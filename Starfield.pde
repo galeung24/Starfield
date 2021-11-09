@@ -13,7 +13,7 @@ class Walker {
     myY = myY + (float)(Math.sin(myAngle)*mySpeed);
   }
   void show() {
-    fill(255,255,255);
+    fill(0,191,255);
     ellipse(myX,myY,mySize,mySize);
   }
 }
